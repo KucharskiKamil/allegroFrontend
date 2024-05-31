@@ -1,0 +1,167 @@
+
+body
+{
+  background-color: rgb(251, 252, 244);
+}
+.app-container {
+  
+  width:100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-task-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+@media (max-width: 600px) {
+  .add-task-form {
+    flex-direction: column;
+    align-items: center;
+  }
+  .topic-input
+  {
+    margin-bottom:10px;
+  }
+  .description-input
+  {
+    margin-bottom:10px;
+  }
+}
+
+
+.add-task-form input, .add-task-form select {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  width:80vw;
+}
+
+.text-display
+{
+
+  width: 50%;
+  height: 70px;
+}
+.button-display
+{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  
+  width: 50%;
+  height: 70px;
+}
+.task-item 
+{
+  display: flex;
+  align-items: stretch;
+  border-radius: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.task-item .text-display {
+  flex-grow: 1; 
+  min-width: 0; 
+}
+
+.task-item.completed {
+  background-color: #d4edda;
+  text-decoration: line-through;
+}
+
+.task-item .task-details {
+  flex-grow: 1;
+  
+}
+
+.task-item .task-details h3 {
+  margin: 0;
+}
+
+.task-item .task-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #666;
+}
+.text-display
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
+}
+.task-item.completed .topic{
+  color:rgb(15, 126, 39);
+}
+.task-item.completed .description{
+  color:rgb(25, 194, 61);
+}
+.topic
+{
+  color:rgb(31, 31, 31);
+  font-size: xx-large;
+}
+.description
+{
+  color:rgb(129, 129, 129);
+  font-size:large;
+}
+.task-button
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding:5px;
+  margin-right:15px;
+  border:none;
+}
+.icon {
+  font-size: 50px;
+}
+.delete-button
+{
+  color:red;
+}
+.done-button
+{
+  color:green;
+}
+
+.description-input
+{
+  border-radius: 8px;
+}
+.topic-input
+{
+  border-radius: 8px;
+}
+.button-add
+{
+  border: 1px solid black;
+  height: 36px;
+  width:80px;
+  border-radius: 15px;
+}
+.error
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:red;
+}
