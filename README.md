@@ -17,7 +17,7 @@ Projekt to prosta aplikacja To-Do List napisana w React, umożliwiająca użytko
 1. Sklonuj repozytorium na swój lokalny komputer.
 2. Uruchom terminal i przejdź do katalogu projektu.
 3. Zainstaluj wymagane zależności poleceniem: `npm install`.
-4. Uruchom aplikację poleceniem: `npm start`.
+4. Uruchom aplikację poleceniem: `npm run dev`.
 
 ## Live Preview
 Jedyne niespełnione wymaganie co do projektu. Po kilku dobrych godzinach siedzenia nad szukaniem problemu nie jestem w stanie już wymyśleć co jest nie tak i sam nie mam czasu aby dalej szukać rozwiązania (ze względu na inżynierkę)
