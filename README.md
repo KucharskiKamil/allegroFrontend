@@ -2,7 +2,7 @@
 
 Projekt to prosta aplikacja To-Do List napisana w React, umożliwiająca użytkownikowi tworzenie listy zadań do wykonania. 
 
-Strona projektu: https://666070f9246f6f23209b79e6--extraordinary-mandazi-2c8161.netlify.app/contact
+Strona projektu: https://extraordinary-mandazi-2c8161.netlify.app/ 
 
 ## Wymagania projektu
 ### Technologie
