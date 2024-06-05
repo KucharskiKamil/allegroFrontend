@@ -226,6 +226,10 @@ body
 .form
 {
   width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .form-name
 {
@@ -259,9 +263,6 @@ body
   border-radius: 10px;
   border: 1px solid grey;
 }
-
-
-
 .form-adress
 {
   display: flex;
@@ -339,7 +340,21 @@ body
   font-size: large;
   margin-bottom:4px;
 }
-
+.przyciskSubmit
+{
+  width:200px;
+  height: 50px;;
+  margin-top:50px;
+}
+.error-display
+{
+  color: red;
+  
+}
+.success-message
+{
+  color: green;
+}
 @media (max-width: 600px) 
 {
   .add-task-form {
@@ -367,15 +382,17 @@ body
 .email-phone-holder
 {
   flex-direction: column;
+  width:250px;
 }
 .form-phone
 {
-  width: 100%;
+
   padding:none;
   margin:none;
 
   flex-direction: column;
 }
+
 .form-email
 {
   display: flex;
