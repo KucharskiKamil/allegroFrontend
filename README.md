@@ -2,6 +2,8 @@
 
 Projekt to prosta aplikacja To-Do List napisana w React, umożliwiająca użytkownikowi tworzenie listy zadań do wykonania. 
 
+Strona projektu: https://666070f9246f6f23209b79e6--extraordinary-mandazi-2c8161.netlify.app/contact
+
 ## Wymagania projektu
 ### Technologie
 - React
@@ -19,5 +21,3 @@ Projekt to prosta aplikacja To-Do List napisana w React, umożliwiająca użytko
 3. Zainstaluj wymagane zależności poleceniem: `npm install`.
 4. Uruchom aplikację poleceniem: `npm run dev`.
 
-## Live Preview
-Jedyne niespełnione wymaganie co do projektu. Po kilku dobrych godzinach siedzenia nad szukaniem problemu nie jestem w stanie już wymyśleć co jest nie tak i sam nie mam czasu aby dalej szukać rozwiązania (ze względu na inżynierkę)
